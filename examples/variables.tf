@@ -1,5 +1,5 @@
 variable "name" {
-  default     = "tf-example-module-slb-acl"
+  default = "tf-example-module-slb-acl"
 }
 
 variable "entry_list" {
@@ -18,3 +18,4 @@ variable "entry_list" {
     },
   ]
 }
+
