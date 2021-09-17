@@ -1,15 +1,18 @@
 variable "region" {
   description = "(Deprecated from version 1.2.0) The region used to launch this module resources."
+  type        = string
   default     = ""
 }
 
 variable "name" {
   description = "the Name of the access control list."
-  default     = "terraform-alicloud-slb-acl"
+  type        = string
+  default     = ""
 }
 
 variable "ip_version" {
   description = "The IP Version of access control list is the type of its entry (IP addresses or CIDR blocks). It values ipv4/ipv6. Our plugin provides a default ip_version: ipv4."
+  type        = string
   default     = "ipv4"
 }
 

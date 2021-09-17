@@ -1,5 +1,3 @@
-# used for testing
-*.tfvars
 
 # Compiled files
 *.tfstate
