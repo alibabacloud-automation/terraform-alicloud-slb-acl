@@ -1,9 +1,3 @@
-provider "alicloud" {
-  version              = ">=1.56.0"
-  region               = var.region != "" ? var.region : null
-  configuration_source = "terraform-alicloud-modules/slb-acl"
-}
-
 resource "alicloud_slb_acl" "this_slb_acl" {
   name       = var.name
   ip_version = var.ip_version
