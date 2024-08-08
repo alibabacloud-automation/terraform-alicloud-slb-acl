@@ -1,4 +1,6 @@
-## 1.4.0 (Unreleased)
+## 1.4.0 (August 08, 2024)
+
+- deprecate [GH-5](https://github.com/alibabacloud-automation/terraform-alicloud-slb-acl/pull/5)
 
 ## 1.3.0 (April 29, 2022)
 
